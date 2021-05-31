@@ -1,0 +1,16 @@
+/*
+ * (c) 2021 ComputerQQcom. All rights reserved.
+ */
+
+.vcss {
+    font-size: 16px;
+    background: #e4e1d8;
+    text-align: center;
+}
+
+.ccss {
+    font-size: 14px;
+    background: #f0f0f0;
+    width: 25%;
+    text-align: leftr;
+}
