@@ -6,12 +6,94 @@
     <meta name="description" content="ComputerQQcom's webpage!">
     <meta name="keywords" content="ComputerQQcom, Computerqqcom, computerqqcom, COMPUTERQQCOM, Youtuber, YouTuber, youtuber, Youtube, youtube, Website, computerqqcom.ga">
     <link rel="shortcut icon" href="https://www.computerqqcom.ga/icon.ico">
+    <link rel="stylesheet" href="https://www.computerqqcom.ga/style.css">
+    <link rel="stylesheet" href="https://www.computerqqcom.ga/phone view style.css">
     <title>
         ComputerQQcom Book Page
     </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        
+        .side {
+            -ms-flex: 30%;
+            flex: 10%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        
+        .main {
+            -ms-flex: 70%;
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+        
+        .main a:hover {
+            color: blue;
+        }
+        
+        .img {
+            background-color: #aaa;
+            width: 100%;
+            align: center;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #2196F3;
+            border-radius: 7px;
+        }
+        
+        @media screen and (max-width: 850px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <div class="topnav">
+        <a class="active" href="#">Home</a>
+        <a href="/language/en/Home Page/About/">About</a>
+        <a href="/language/en/Page/Blog/">Blog</a>
+        <div class="dropdown">
+            <button class="dropbtn">Other areas
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://book.computerqqcom.ga">Book</a>
+                <a href="https://speednetworktest.computerqqcom.ga" target="_blank">SpeedTest by Ookla</a>
+                <a href="/Redirect/Home Page/youtube channel" target="_blank">YouTube</a>
+            </div>
+        </div>
+        <div class="time">
+            <span id="datetime"></span>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/language/en/Home Page/About/">About</a>
+        <a href="/language/en/Home Page/Blog/">Blog</a>
+        <a class="accordion">Other areas</a>
+        <div class="panel">
+            <a href="https://book.computerqqcom.ga">Book</a>
+            <a href="https://speednetworktest.computerqqcom.ga" target="_blank">SpeedTest by Ookla</a>
+            <a href="/Redirect/Home Page/youtube channel">YouTube</a>
+        </div>
+
+    </div>
+    <span id="opennavtop" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 </body>
 
